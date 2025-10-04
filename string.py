@@ -16,4 +16,6 @@ print(st[:6])
 #slicing all the elements with the step of 2
 print(st[0::2])
 #assigning a new variable and concatenate the previous string with a new string
-op=st+"in python"
+op=st+" in python"
+#changing the concatenated string into upper case using upper() function
+print(op.upper())
